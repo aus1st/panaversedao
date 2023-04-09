@@ -124,3 +124,37 @@ export const programsData = [
             ]    
     },
 ]
+
+
+export const menuItems = [
+    {
+      slug: "wmd",
+      name: "Web 3.0 and Metaverse Developer",
+      path: "/wmd",
+    },
+    {
+      slug: "ai",
+      name: "Artificial Intelligence",
+      path: "/ai",
+    },
+    {
+      slug: "cnc",
+      name: "Cloud-Native Computing",
+      path: "/cnc",
+    },
+    {
+      slug: "iot",
+      name: "Ambient Computing and IoT",
+      path: "/iot",
+    },
+    {
+      slug: "bio",
+      name: "Genomics and Bioinformatics",
+      path: "/bio",
+    },
+    {
+      slug: "npa",
+      name: "Network Programmability and Automation",
+      path: "/npa",
+    },
+  ];

@@ -12,7 +12,10 @@ module.exports = {
     extend: {
       colors:{
         primary: '#00616C'
-      }
+      },
+      visibility: ["group-hover"]
+
+      
       
     },
   },
