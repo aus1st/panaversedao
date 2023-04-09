@@ -5,8 +5,9 @@ import Wrapper from '../shared/Wrapper'
 
 const Header = () => {
   return (
+    <header className='top-0 z-10 sticky '>
     <Wrapper>
-    <header className="flex items-center justify-between bg-white sticky py-4 top-0">
+    <div className="flex items-center justify-between bg-white backdrop-blur-md bg-opacity-90  py-4 ">
     <div>
       <Image 
       src={Logo} 
@@ -17,8 +18,9 @@ const Header = () => {
         <Link href="/" >Home</Link>
         <Link href="/courses" >Courses</Link>
      </ul>
-    </header>
+    </div>
     </Wrapper>
+    </header>
   )
 }
 
